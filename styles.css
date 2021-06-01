@@ -1,0 +1,66 @@
+body{
+    display: block;
+    /* margin:0 auto; */
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h3{
+    color: #F2F2F2;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.btn1{
+    border-radius: 30px;
+    border: 3px solid white;
+    color: #F2F2F2;
+    font-family: 'Big Shoulders Display';
+    width: 110px;
+    height: 40px;
+    margin: 100px 25px;
+}
+.column{
+    /* float: left; */
+    /* width: 33.33%; */
+    height: 450px;
+}
+
+/* .row:after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+@media only screen and (min-width:990px){
+.row{
+    margin-top: 10%;
+}
+}
+
+.sedan , .suv , .luxury{
+    text-align: left;
+    /* width: 300px; */
+    padding: 10px 20px;
+}
+
+.sedan{
+    background-color: #E38826;
+}
+
+.suv{
+    background-color: #006970;
+}
+
+.luxury{
+    background-color: #004241;
+}
+
+h3 , p{
+    padding: 0 25px;
+}
